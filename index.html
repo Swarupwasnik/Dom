@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <h1 id="text">Welcome</h1>
+    <h2>DOM</h2>
+    <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eligendi nemo ad incidunt, odit iure architecto voluptas. Dolor laborum magni optio, repudiandae vero ex autem saepe. Libero nesciunt pariatur nulla?</p>
+
+    <h1 id="hello">HELLO</h1>
+
+    <h2 class="realme" id="heading">hello</h2>
+    <button type="button" onclick="myFunction()">Click here</button>
+
+    <p id="acad">Elevation Academy</p>
+
+    <button type="button" onclick='document.getElementById("acad").innerHTML="Welcome to The Elevation Academy"'> Click me</button>
+<div>
+<select name="dom" id="btn">
+    <option value="00">year</option>
+    <option value="01">20-21</option>
+    <option value="02">21-22</option>
+</select>
+<p> Covid year is:
+    <span class="output"></span>
+</p>
+</div>
+<button onclick="getOption()"> Check Option</button>
+
+<div>
+    <form name="form" onsubmit="returnvalidateForm()"method="post" action="/index.html"
+    >
+    Name: <input type="text"name="fname">
+    <br>
+    Email: <input type="text" name="Phonenumber">
+    <br>
+    Birthyear: <input type="text" name="Email"><br>
+    Mobile No: <input type="number" name ="Mobile No">
+<br>
+<input type="submit" value="Submit">
+</form>
+
+
+    
+</div>
+
+
+<div id="container">
+    <div class="box">hii</div>
+    <div class="box">Hello</div>
+    <div class="box">Hola</div>
+</div>
+<button onclick="myFunction()">Click it</button>
+
+
+
+<div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <script src="/index.js"></script>
+</body>
+</html>
